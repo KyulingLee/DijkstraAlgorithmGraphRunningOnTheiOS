@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7018CA71845AAD4009AC0DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CA61845AAD4009AC0DB /* Foundation.framework */; };
+		C7018CA91845AAD4009AC0DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CA81845AAD4009AC0DB /* CoreGraphics.framework */; };
+		C7018CAB1845AAD4009AC0DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CAA1845AAD4009AC0DB /* UIKit.framework */; };
+		C7018CB11845AAD4009AC0DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7018CAF1845AAD4009AC0DB /* InfoPlist.strings */; };
+		C7018CB31845AAD4009AC0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CB21845AAD4009AC0DB /* main.m */; };
+		C7018CB71845AAD4009AC0DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CB61845AAD4009AC0DB /* AppDelegate.m */; };
+		C7018CBA1845AAD4009AC0DB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7018CB81845AAD4009AC0DB /* Main_iPhone.storyboard */; };
+		C7018CBD1845AAD4009AC0DB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7018CBB1845AAD4009AC0DB /* Main_iPad.storyboard */; };
+		C7018CC01845AAD4009AC0DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CBF1845AAD4009AC0DB /* ViewController.m */; };
+		C7018CC21845AAD4009AC0DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7018CC11845AAD4009AC0DB /* Images.xcassets */; };
+		C7018CC91845AAD4009AC0DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CC81845AAD4009AC0DB /* XCTest.framework */; };
+		C7018CCA1845AAD4009AC0DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CA61845AAD4009AC0DB /* Foundation.framework */; };
+		C7018CCB1845AAD4009AC0DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CAA1845AAD4009AC0DB /* UIKit.framework */; };
+		C7018CD31845AAD4009AC0DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7018CD11845AAD4009AC0DB /* InfoPlist.strings */; };
+		C7018CD51845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CD41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7018CCC1845AAD4009AC0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7018C9B1845AAD4009AC0DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7018CA21845AAD4009AC0DB;
+			remoteInfo = DijkstraAlgorithmGraphRunningOnTheiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7018CA31845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DijkstraAlgorithmGraphRunningOnTheiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7018CA61845AAD4009AC0DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7018CA81845AAD4009AC0DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7018CAA1845AAD4009AC0DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7018CAE1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DijkstraAlgorithmGraphRunningOnTheiOS-Info.plist"; sourceTree = "<group>"; };
+		C7018CB01845AAD4009AC0DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7018CB21845AAD4009AC0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7018CB41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch"; sourceTree = "<group>"; };
+		C7018CB51845AAD4009AC0DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7018CB61845AAD4009AC0DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7018CB91845AAD4009AC0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C7018CBC1845AAD4009AC0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C7018CBE1845AAD4009AC0DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7018CBF1845AAD4009AC0DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7018CC11845AAD4009AC0DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7018CC71845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DijkstraAlgorithmGraphRunningOnTheiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7018CC81845AAD4009AC0DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7018CD01845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist"; sourceTree = "<group>"; };
+		C7018CD21845AAD4009AC0DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7018CD41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DijkstraAlgorithmGraphRunningOnTheiOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7018CA01845AAD4009AC0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CA91845AAD4009AC0DB /* CoreGraphics.framework in Frameworks */,
+				C7018CAB1845AAD4009AC0DB /* UIKit.framework in Frameworks */,
+				C7018CA71845AAD4009AC0DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7018CC41845AAD4009AC0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CC91845AAD4009AC0DB /* XCTest.framework in Frameworks */,
+				C7018CCB1845AAD4009AC0DB /* UIKit.framework in Frameworks */,
+				C7018CCA1845AAD4009AC0DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7018C9A1845AAD4009AC0DB = {
+			isa = PBXGroup;
+			children = (
+				C7018CAC1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */,
+				C7018CCE1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests */,
+				C7018CA51845AAD4009AC0DB /* Frameworks */,
+				C7018CA41845AAD4009AC0DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7018CA41845AAD4009AC0DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CA31845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS.app */,
+				C7018CC71845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7018CA51845AAD4009AC0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CA61845AAD4009AC0DB /* Foundation.framework */,
+				C7018CA81845AAD4009AC0DB /* CoreGraphics.framework */,
+				C7018CAA1845AAD4009AC0DB /* UIKit.framework */,
+				C7018CC81845AAD4009AC0DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7018CAC1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CB51845AAD4009AC0DB /* AppDelegate.h */,
+				C7018CB61845AAD4009AC0DB /* AppDelegate.m */,
+				C7018CB81845AAD4009AC0DB /* Main_iPhone.storyboard */,
+				C7018CBB1845AAD4009AC0DB /* Main_iPad.storyboard */,
+				C7018CBE1845AAD4009AC0DB /* ViewController.h */,
+				C7018CBF1845AAD4009AC0DB /* ViewController.m */,
+				C7018CC11845AAD4009AC0DB /* Images.xcassets */,
+				C7018CAD1845AAD4009AC0DB /* Supporting Files */,
+			);
+			path = DijkstraAlgorithmGraphRunningOnTheiOS;
+			sourceTree = "<group>";
+		};
+		C7018CAD1845AAD4009AC0DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CAE1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS-Info.plist */,
+				C7018CAF1845AAD4009AC0DB /* InfoPlist.strings */,
+				C7018CB21845AAD4009AC0DB /* main.m */,
+				C7018CB41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7018CCE1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CD41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m */,
+				C7018CCF1845AAD4009AC0DB /* Supporting Files */,
+			);
+			path = DijkstraAlgorithmGraphRunningOnTheiOSTests;
+			sourceTree = "<group>";
+		};
+		C7018CCF1845AAD4009AC0DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7018CD01845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist */,
+				C7018CD11845AAD4009AC0DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7018CA21845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7018CD81845AAD4009AC0DB /* Build configuration list for PBXNativeTarget "DijkstraAlgorithmGraphRunningOnTheiOS" */;
+			buildPhases = (
+				C7018C9F1845AAD4009AC0DB /* Sources */,
+				C7018CA01845AAD4009AC0DB /* Frameworks */,
+				C7018CA11845AAD4009AC0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DijkstraAlgorithmGraphRunningOnTheiOS;
+			productName = DijkstraAlgorithmGraphRunningOnTheiOS;
+			productReference = C7018CA31845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7018CC61845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7018CDB1845AAD4009AC0DB /* Build configuration list for PBXNativeTarget "DijkstraAlgorithmGraphRunningOnTheiOSTests" */;
+			buildPhases = (
+				C7018CC31845AAD4009AC0DB /* Sources */,
+				C7018CC41845AAD4009AC0DB /* Frameworks */,
+				C7018CC51845AAD4009AC0DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7018CCD1845AAD4009AC0DB /* PBXTargetDependency */,
+			);
+			name = DijkstraAlgorithmGraphRunningOnTheiOSTests;
+			productName = DijkstraAlgorithmGraphRunningOnTheiOSTests;
+			productReference = C7018CC71845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7018C9B1845AAD4009AC0DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lee Bong Kyu";
+				TargetAttributes = {
+					C7018CC61845AAD4009AC0DB = {
+						TestTargetID = C7018CA21845AAD4009AC0DB;
+					};
+				};
+			};
+			buildConfigurationList = C7018C9E1845AAD4009AC0DB /* Build configuration list for PBXProject "DijkstraAlgorithmGraphRunningOnTheiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7018C9A1845AAD4009AC0DB;
+			productRefGroup = C7018CA41845AAD4009AC0DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7018CA21845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */,
+				C7018CC61845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7018CA11845AAD4009AC0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CBD1845AAD4009AC0DB /* Main_iPad.storyboard in Resources */,
+				C7018CC21845AAD4009AC0DB /* Images.xcassets in Resources */,
+				C7018CBA1845AAD4009AC0DB /* Main_iPhone.storyboard in Resources */,
+				C7018CB11845AAD4009AC0DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7018CC51845AAD4009AC0DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CD31845AAD4009AC0DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7018C9F1845AAD4009AC0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CC01845AAD4009AC0DB /* ViewController.m in Sources */,
+				C7018CB71845AAD4009AC0DB /* AppDelegate.m in Sources */,
+				C7018CB31845AAD4009AC0DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7018CC31845AAD4009AC0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7018CD51845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7018CCD1845AAD4009AC0DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7018CA21845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */;
+			targetProxy = C7018CCC1845AAD4009AC0DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7018CAF1845AAD4009AC0DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7018CB01845AAD4009AC0DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7018CB81845AAD4009AC0DB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7018CB91845AAD4009AC0DB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C7018CBB1845AAD4009AC0DB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7018CBC1845AAD4009AC0DB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C7018CD11845AAD4009AC0DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7018CD21845AAD4009AC0DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7018CD61845AAD4009AC0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7018CD71845AAD4009AC0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7018CD91845AAD4009AC0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch";
+				INFOPLIST_FILE = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7018CDA1845AAD4009AC0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch";
+				INFOPLIST_FILE = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7018CDC1845AAD4009AC0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DijkstraAlgorithmGraphRunningOnTheiOS.app/DijkstraAlgorithmGraphRunningOnTheiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DijkstraAlgorithmGraphRunningOnTheiOSTests/DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7018CDD1845AAD4009AC0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DijkstraAlgorithmGraphRunningOnTheiOS.app/DijkstraAlgorithmGraphRunningOnTheiOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DijkstraAlgorithmGraphRunningOnTheiOS/DijkstraAlgorithmGraphRunningOnTheiOS-Prefix.pch";
+				INFOPLIST_FILE = "DijkstraAlgorithmGraphRunningOnTheiOSTests/DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7018C9E1845AAD4009AC0DB /* Build configuration list for PBXProject "DijkstraAlgorithmGraphRunningOnTheiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7018CD61845AAD4009AC0DB /* Debug */,
+				C7018CD71845AAD4009AC0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7018CD81845AAD4009AC0DB /* Build configuration list for PBXNativeTarget "DijkstraAlgorithmGraphRunningOnTheiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7018CD91845AAD4009AC0DB /* Debug */,
+				C7018CDA1845AAD4009AC0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7018CDB1845AAD4009AC0DB /* Build configuration list for PBXNativeTarget "DijkstraAlgorithmGraphRunningOnTheiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7018CDC1845AAD4009AC0DB /* Debug */,
+				C7018CDD1845AAD4009AC0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7018C9B1845AAD4009AC0DB /* Project object */;
+}
