@@ -22,6 +22,10 @@
 		C7018CCB1845AAD4009AC0DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7018CAA1845AAD4009AC0DB /* UIKit.framework */; };
 		C7018CD31845AAD4009AC0DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7018CD11845AAD4009AC0DB /* InfoPlist.strings */; };
 		C7018CD51845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CD41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m */; };
+		C7018CE01845ADC4009AC0DB /* GraphCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CDF1845ADC4009AC0DB /* GraphCanvasView.m */; };
+		C7018CE31845ADE4009AC0DB /* GraphNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE21845ADE4009AC0DB /* GraphNodeView.m */; };
+		C7018CE61845AE03009AC0DB /* GraphResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE51845AE03009AC0DB /* GraphResolver.m */; };
+		C7018CE91845AE1A009AC0DB /* GraphNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE81845AE1A009AC0DB /* GraphNodeItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		C7018CD01845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DijkstraAlgorithmGraphRunningOnTheiOSTests-Info.plist"; sourceTree = "<group>"; };
 		C7018CD21845AAD4009AC0DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7018CD41845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DijkstraAlgorithmGraphRunningOnTheiOSTests.m; sourceTree = "<group>"; };
+		C7018CDE1845ADC4009AC0DB /* GraphCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCanvasView.h; sourceTree = "<group>"; };
+		C7018CDF1845ADC4009AC0DB /* GraphCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCanvasView.m; sourceTree = "<group>"; };
+		C7018CE11845ADE4009AC0DB /* GraphNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNodeView.h; sourceTree = "<group>"; };
+		C7018CE21845ADE4009AC0DB /* GraphNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeView.m; sourceTree = "<group>"; };
+		C7018CE41845AE03009AC0DB /* GraphResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphResolver.h; sourceTree = "<group>"; };
+		C7018CE51845AE03009AC0DB /* GraphResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphResolver.m; sourceTree = "<group>"; };
+		C7018CE71845AE1A009AC0DB /* GraphNodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNodeItem.h; sourceTree = "<group>"; };
+		C7018CE81845AE1A009AC0DB /* GraphNodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,14 @@
 				C7018CBF1845AAD4009AC0DB /* ViewController.m */,
 				C7018CC11845AAD4009AC0DB /* Images.xcassets */,
 				C7018CAD1845AAD4009AC0DB /* Supporting Files */,
+				C7018CDE1845ADC4009AC0DB /* GraphCanvasView.h */,
+				C7018CDF1845ADC4009AC0DB /* GraphCanvasView.m */,
+				C7018CE11845ADE4009AC0DB /* GraphNodeView.h */,
+				C7018CE21845ADE4009AC0DB /* GraphNodeView.m */,
+				C7018CE41845AE03009AC0DB /* GraphResolver.h */,
+				C7018CE51845AE03009AC0DB /* GraphResolver.m */,
+				C7018CE71845AE1A009AC0DB /* GraphNodeItem.h */,
+				C7018CE81845AE1A009AC0DB /* GraphNodeItem.m */,
 			);
 			path = DijkstraAlgorithmGraphRunningOnTheiOS;
 			sourceTree = "<group>";
@@ -253,8 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7018CE61845AE03009AC0DB /* GraphResolver.m in Sources */,
 				C7018CC01845AAD4009AC0DB /* ViewController.m in Sources */,
+				C7018CE01845ADC4009AC0DB /* GraphCanvasView.m in Sources */,
+				C7018CE31845ADE4009AC0DB /* GraphNodeView.m in Sources */,
 				C7018CB71845AAD4009AC0DB /* AppDelegate.m in Sources */,
+				C7018CE91845AE1A009AC0DB /* GraphNodeItem.m in Sources */,
 				C7018CB31845AAD4009AC0DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
