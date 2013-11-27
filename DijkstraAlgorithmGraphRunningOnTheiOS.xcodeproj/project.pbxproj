@@ -26,6 +26,7 @@
 		C7018CE31845ADE4009AC0DB /* GraphNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE21845ADE4009AC0DB /* GraphNodeView.m */; };
 		C7018CE61845AE03009AC0DB /* GraphResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE51845AE03009AC0DB /* GraphResolver.m */; };
 		C7018CE91845AE1A009AC0DB /* GraphNodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C7018CE81845AE1A009AC0DB /* GraphNodeItem.m */; };
+		C7018CEB1845B27F009AC0DB /* node_background.png in Resources */ = {isa = PBXBuildFile; fileRef = C7018CEA1845B27F009AC0DB /* node_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		C7018CE51845AE03009AC0DB /* GraphResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphResolver.m; sourceTree = "<group>"; };
 		C7018CE71845AE1A009AC0DB /* GraphNodeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNodeItem.h; sourceTree = "<group>"; };
 		C7018CE81845AE1A009AC0DB /* GraphNodeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNodeItem.m; sourceTree = "<group>"; };
+		C7018CEA1845B27F009AC0DB /* node_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = node_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		C7018CAC1845AAD4009AC0DB /* DijkstraAlgorithmGraphRunningOnTheiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C7018CEA1845B27F009AC0DB /* node_background.png */,
 				C7018CB51845AAD4009AC0DB /* AppDelegate.h */,
 				C7018CB61845AAD4009AC0DB /* AppDelegate.m */,
 				C7018CB81845AAD4009AC0DB /* Main_iPhone.storyboard */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7018CBD1845AAD4009AC0DB /* Main_iPad.storyboard in Resources */,
+				C7018CEB1845B27F009AC0DB /* node_background.png in Resources */,
 				C7018CC21845AAD4009AC0DB /* Images.xcassets in Resources */,
 				C7018CBA1845AAD4009AC0DB /* Main_iPhone.storyboard in Resources */,
 				C7018CB11845AAD4009AC0DB /* InfoPlist.strings in Resources */,

@@ -21,12 +21,20 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Graph" id="BmM-sd-5qO">
-                                        <barButtonItem key="leftBarButtonItem" title="Add" id="ikK-el-74F"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Route" id="0Qs-ir-iUr"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Add" id="ikK-el-74F">
+                                            <connections>
+                                                <action selector="pushAddNode:" destination="vXZ-lx-hvc" id="0NM-nj-tOf"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Route" id="0Qs-ir-iUr">
+                                            <connections>
+                                                <action selector="pushFindPath:" destination="vXZ-lx-hvc" id="LG5-W9-Sdi"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tlx-bp-hgu" userLabel="Canvas View">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tlx-bp-hgu" userLabel="Canvas View" customClass="GraphCanvasView">
                                 <rect key="frame" x="0.0" y="44" width="320" height="524"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -35,6 +43,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="graphCanvasView" destination="Tlx-bp-hgu" id="g3l-Af-XUc"/>
+                        <outlet property="navigationBar" destination="AuD-EU-fGZ" id="1Sb-6M-L19"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
